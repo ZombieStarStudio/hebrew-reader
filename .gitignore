@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+build/
+dist/
+release/
+_bench/
+models/
+# the voice "תאיר" is private: never in a public repo
+voices/

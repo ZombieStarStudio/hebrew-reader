@@ -1,0 +1,25 @@
+[project]
+name = "hebrew-reader"
+version = "1.0.0"
+description = "HebrewReader (הקורא העברי) - free offline Hebrew text-to-speech for students, by ZombieStar Studio"
+license = "GPL-3.0-or-later"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "phonikud==0.4.1",          # rules only (pointed words); its ONNX model is not used
+    "renikud-onnx==0.1.0",
+    "espeakng-loader==0.2.4",
+    "phonemizer-fork==3.3.2",
+    "onnxruntime>=1.23,<2",     # CPU build: a student's PC has no CUDA libraries
+    "numpy",
+    "scipy",
+    "soundfile>=0.13.1",
+    "sounddevice>=0.5.2",
+]
+# zipvoice_onnx and style_onnx are vendored in vendor/ (librosa replaced by vendor/zipvoice_onnx/dsp.py)
+
+[dependency-groups]
+dev = ["pyinstaller>=6.10", "pillow"]
+
+[tool.uv]
+package = false
+

@@ -1,0 +1,19 @@
+הקורא העברי (HebrewReader) 1.0.0 - ZombieStar Studio, zombiestar.studio
+תוכנה חינמית, קוד פתוח תחת GNU GPL גרסה 3 ומעלה (הקובץ LICENSE). קוד המקור: ראו הקישור בדף ההורדה.
+הטקסט לא יוצא מהמחשב: התוכנה לא מתחברת לאינטרנט. הקול סינתטי (נוצר במחשב), לא הקלטה של אדם.
+
+תודה ליוצרים שעליהם התוכנה בנויה / Credits:
+
+- Basic voice: "Piper Hebrew - noa (medium)" by thewh1teagle, https://huggingface.co/thewh1teagle/piper-he-noa
+  License: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Used unchanged.
+  Built with Piper (https://github.com/OHF-Voice/piper1-gpl); English speaker trained on LJSpeech (public domain).
+- ReNikud (Hebrew text to phonemes) by Maxim Melichov, Yakov Kolani, Morris Alper,
+  https://huggingface.co/renikud/renikud - License: CC BY 4.0. Used unchanged.
+- Phonikud (rules for words written with nikud) by thewh1teagle et al., https://github.com/phonikud/phonikud - CC BY 4.0.
+- eSpeak NG (English phonemes), https://github.com/espeak-ng/espeak-ng - GPL-3.0. Only the English data is included.
+- phonemizer (fork), https://github.com/bootphon/phonemizer - GPL-3.0.
+- ONNX Runtime, Microsoft - MIT. NumPy, SciPy - BSD-3-Clause. soundfile - BSD-3-Clause, with libsndfile - LGPL-2.1.
+  sounddevice - MIT, with PortAudio - MIT. num2words - LGPL-2.1. Python - PSF License. Tcl/Tk - BSD-style.
+  Built with PyInstaller (GPL-2.0 with the bootloader exception).
+
+The full license texts are in the "licenses" folder beside the program.
